@@ -32,7 +32,7 @@ const IndigoFooter = () => {
     <div className="wrapper wrapper-footer">
       <footer id="footer" className="tutor-container">
         <div className="footer-top">
-          <div className="powered-area">
+          <div className="powered-area" id="indigo-plugin">
             <ul className="logo-list">
               <li>{intl.formatMessage(messages["footer.poweredby.text"])}</li>
               <li>
